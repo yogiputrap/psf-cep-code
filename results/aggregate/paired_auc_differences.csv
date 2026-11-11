@@ -1,0 +1,10 @@
+comparison,delta_roc_auc,ci95_low,ci95_high
+Final vs LR-13 (headline comparator),0.0969,0.0808,0.1100
+Final vs CatBoost-13 (three-seed averages),0.0681,0.0439,0.0890
+Final vs Model-34 (CatBoost; three-seed averages),0.0184,0.0092,0.0264
+Final vs LR 34 features,0.0386,0.0291,0.0467
+With vs without text features (R4 + calendar + R-ESR; 3 seeds),0.0059,0.0002,0.0111
+With vs without R-ESR (R4 + calendar; 3 seeds),0.0031,-0.0002,0.0064
+CatBoost 34 vs 13 features (three-seed averages),0.0497,0.0307,0.0705
+Logistic regression 34 vs 13 features,0.0584,0.0486,0.0675
+CatBoost 64 vs 34 features (three-seed averages),0.0069,0.0029,0.0109

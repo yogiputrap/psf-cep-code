@@ -1,0 +1,5 @@
+scenario,fail_pct_final,reduction_pct_final,fail_pct_lgbm,reduction_pct_lgbm,over_capacity_parcels,wbi_pct,evening_pct
+Historical,20.44,0.00,20.39,0.00,1103,78.47,10.72
+A: greedy no capacity (infeasible lower bound),10.99,46.24,10.98,46.12,6884,3.85,0.00
+B: MILP shift of at most one slot,13.85,32.25,14.10,30.85,0,79.79,2.13
+C: MILP unconstrained (theoretical upper bound),11.81,42.23,11.93,41.47,0,58.84,2.13

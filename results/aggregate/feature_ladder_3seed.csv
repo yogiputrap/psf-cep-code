@@ -1,0 +1,8 @@
+n_features,step,roc_auc,step_delta,step_ci_low,step_ci_high,delta_vs_catboost13,vs13_ci_low,vs13_ci_high
+13,CatBoost-13 (baseline),0.7858,,,,,,
+34,"+ location, address/phone, history",0.8355,0.0497,0.0307,0.0705,0.0497,0.0307,0.0705
+64,+ raw features R4,0.8424,0.0069,0.0029,0.0109,0.0566,0.036,0.0768
+70,+ holiday calendar,0.8449,0.0024,-0.0029,0.009,0.0591,0.0372,0.0788
+89,+ R-ESR,0.848,0.0031,-0.0002,0.0064,0.0622,0.0401,0.0813
+93,+ four TF-IDF text scores,0.851,0.003,0.0001,0.006,0.0652,0.0424,0.0856
+95,"+ native text, final configuration",0.8539,0.0029,-0.001,0.0063,0.0681,0.0439,0.089

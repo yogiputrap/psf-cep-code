@@ -1,0 +1,10 @@
+block,variant,fail_pct_final,reduction_pct_final,fail_pct_lgbm,reduction_pct_lgbm,evening_pct
+slot_feasibility_100pct,MILP shift of at most one slot,13.85,32.25,14.10,30.85,2.13
+slot_feasibility_100pct,MILP unconstrained (upper bound),11.81,42.23,11.93,41.47,2.13
+slot_feasibility_100pct,MILP not earlier than historical slot,21.23,-3.83,21.28,-4.38,15.54
+courier_availability_one_slot,100%,13.85,32.25,14.10,30.85,2.13
+courier_availability_one_slot,70%,16.14,21.07,16.42,19.44,12.09
+courier_availability_one_slot,50%,20.20,1.21,20.51,-0.58,27.42
+courier_availability_unconstrained,100%,11.81,42.23,11.93,41.47,2.13
+courier_availability_unconstrained,70%,14.32,29.95,14.52,28.80,11.33
+courier_availability_unconstrained,50%,18.80,8.03,19.00,6.81,27.30

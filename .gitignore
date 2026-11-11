@@ -1,0 +1,12 @@
+# Never commit operator data or anything derived row-by-row from it.
+data/raw/
+data/private/
+*.parquet
+*.pkl
+*.npz
+*.env
+.env*
+__pycache__/
+.pytest_cache/
+results/demo/
+catboost_info/

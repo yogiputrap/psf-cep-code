@@ -1,0 +1,7 @@
+model,roc_auc,pr_auc,brier,cv_roc_auc_mean,cv_roc_auc_std
+Slot only (no model),0.7096,0.3877,0.1379,0.6985,0.0114
+Logistic regression,0.7570,0.4851,0.1333,0.7480,0.0140
+Random forest,0.7822,0.5290,0.1286,0.7785,0.0100
+XGBoost,0.7869,0.5390,0.1269,0.7762,0.0212
+CatBoost,0.7853,0.5393,0.1272,0.7806,0.0165
+LightGBM,0.7908,0.5451,0.1260,0.7787,0.0193

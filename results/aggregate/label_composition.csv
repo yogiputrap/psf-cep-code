@@ -1,0 +1,7 @@
+component,shipments,share_pct
+Modelled shipments with a first attempt,94360,100.00
+Success,76069,80.62
+Explicit failure: reason recorded,6295,6.67
+Explicit failure: final status not DELIVERED (no recorded reason),354,0.38
+Implicit failure: DELIVERED with POD more than 1 h after first attempt,11642,12.34
+All first-attempt failures,18291,19.38

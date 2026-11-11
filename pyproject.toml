@@ -1,0 +1,17 @@
+[project]
+name = "psf"
+version = "0.1.0"
+description = "Reference implementation of a leakage-safe, slot-aware predictive scheduling framework (synthetic data only)"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn"]
+
+[project.optional-dependencies]
+catboost = ["catboost"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

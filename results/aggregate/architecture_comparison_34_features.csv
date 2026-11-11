@@ -1,0 +1,11 @@
+model,roc_auc,pr_auc,brier
+TabNet,0.7931,0.5215,0.1289
+FT-Transformer,0.8041,0.5454,0.1265
+Logistic regression,0.8153,0.5564,0.1225
+MLP + entity embedding,0.8177,0.5644,0.1227
+LightGBM,0.8237,0.5772,0.1203
+Random forest,0.8254,0.5829,0.1219
+XGBoost,0.8268,0.5861,0.1192
+CatBoost,0.8336,0.6000,0.1172
+Stacking (meta logistic regression),0.8373,0.6050,0.1162
+Logit average of 10 models,0.8383,0.6055,0.1162
